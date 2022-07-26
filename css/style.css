@@ -51,6 +51,18 @@ ul{
     padding: 0;
 }
 
+input::placeholder{
+    padding-top: 14px;
+    padding-left: 24px;
+    color: #CACACA;
+}
+
+textarea::placeholder{
+    padding-top: 14px;
+    padding-left: 24px;
+    color: #CACACA;
+}
+
 .Conteiner__Header{
     max-width: 1920px;
     margin: 0 auto;
@@ -89,6 +101,13 @@ ul{
     padding: 25px 39px ;
     color: #FFFFFF;
     display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(110%);
+    cursor: pointer;
+    background: #FFB84D;
 }
 
 
@@ -121,6 +140,21 @@ ul{
     line-height: 22px;
     margin-left: auto;
     margin-right: 260px;
+}
+
+.nav__item{
+    transition: color 0.2s ease-in-out;
+}
+
+.nav__item:hover{
+    color: #FF9900;
+    cursor: pointer;
+}
+
+.nav__item:active{
+    color: #E1670E;
+    cursor: pointer;
+    transform: translateY(1px);
 }
 
 
@@ -250,12 +284,16 @@ ul{
 
 .wrapper__item{
     display: flex;
-    
     max-width: 870px;
     height: 295px;
     background: #FFFFFF;
     border: 1px solid #CACACA;
     border-radius: 32px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.wrapper__item:hover{
+    transform: scale(105%);
 }
 
 .wrapper__img{
@@ -313,9 +351,31 @@ ul{
     margin-bottom: 45px;
 }
 
+.How-we-working_item{
+    transition: color 0.2s ease-in-out;
+}
+
+.How-we-working_item:hover{
+    color: #FF9900;
+    cursor: pointer;
+}
+
+.How-we-working_item:focus{
+    outline: 1px solid #FF9900;
+}
+
+.How-we-working_item:active{
+    color: #E1670E;
+    transform: translateY(1px);
+}
+
+
+
+
 .How-we-working_item:not(:last-child){
     margin-right: 85px;
 }
+
 
 .How-we-working__caption{
     margin-bottom: 8px;
@@ -396,6 +456,11 @@ display: flex;
     background-image: url(/img/+х.png);
     background-size: contain;
     background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
+}
+
+.circl-img:hover{
+    transform: rotate(180deg) scale(110%);
 }
 
 /* footer */
