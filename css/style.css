@@ -75,6 +75,14 @@ ul{
 
 }
 
+.caption{
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
 .btn{
     background: #FF9900;
     border-radius: 16px;
@@ -95,9 +103,12 @@ ul{
     border-radius: 0px 0px 32px 32px;
 }
 
-.nav__logo{
+.logo{
     width: 225px;
     height: 72px;
+}
+
+.nav__logo{
     margin-left: 75px;
     margin-top: 14px;
 }
@@ -276,14 +287,6 @@ ul{
     margin-bottom: 65px;
 }
 
-.wrapper__titel{
-    display: flex;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-}
-
 .wrapper__discription{
     margin-top: 8px;
     font-weight: 400;
@@ -291,3 +294,228 @@ ul{
     line-height: 32px;
     color: #000000;
 }
+
+/* How-we-working */
+
+.How-we-working{
+    margin-top: 100px;
+}
+
+.How-we-working__Titel{
+    margin-bottom: 50px;
+}
+
+.How-we-working__list{
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 45px;
+}
+
+.How-we-working_item:not(:last-child){
+    margin-right: 85px;
+}
+
+.How-we-working__caption{
+    margin-bottom: 8px;
+}
+
+.How-we-working__Discription{
+    width: 758px;
+    min-height: 352px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.How-we-working__btn-more{
+    margin-top: 18px;
+    margin-right: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.How-we-working__btn-contract{
+    background-color: white;
+    color: #000000;
+    border: #000000 1px solid;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.How-we-working__img{
+    width: 870px;
+    height: 460px;
+    border-radius: 32px;
+    background-image: url(/img/Rectangle\ 18.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.How-we-working__Box{
+display: flex;
+}
+
+.How-we-working__right-box{
+    display: flex;
+    margin-left: 142px;
+    align-items: flex-end;
+}
+
+/* FAQ */
+
+.faq{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.faq__Titel{
+    margin-bottom: 32px;
+}
+
+.faq__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;  
+    color: #000000;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    border-top: solid 1px #CACACA;
+    border-bottom: solid 1px #CACACA;
+}
+
+.circl-img{
+    width: 50px;
+    height: 50px;
+    background-image: url(/img/+х.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* footer */
+
+.Conteiner__footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1920px;
+    margin: 0 auto;
+    min-height:  594px;
+    background: #000000;
+}
+
+.footer__left{
+    position: relative;
+    width: 252px;
+    height: 494px;
+    padding-top: 50px;
+    padding-left: 75px;
+}
+
+
+.footer__logo{
+    margin-bottom: 20px;
+}
+
+.footer__left__list{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    color: #CACACA;
+}
+
+.footer__left__item{
+    margin-bottom: 15px;
+}
+
+.footer__left__icon{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+}
+
+.footer__icon-list{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.footer__left__icon-od{
+    background-image: url(/img/ok.png);
+}
+
+.footer__left__icon-vk{
+    background-image: url(/img/vk\ \(1\).svg);   
+}
+
+.footer__mid{
+    margin-top: 50px;
+    width: 570px;
+    min-height: 494px;
+}
+
+.mid__Titel{
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+}
+
+.Input{
+    height: 60px;
+    width: 570px;
+    background: #414141;
+    border-radius: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 25px;
+    border-style: none;
+}
+
+.Input__text{
+    height: 150px;
+    width : 570px;
+    /* padding: 14px 24px; */
+    resize: none;
+}
+
+.Input__btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    padding: 19px 52px;
+}
+
+.Input__check{
+    margin-left: 10px;
+    margin-right: 4px;
+    width: 14px;
+    height: 14px;
+    background-color: #000000;
+}
+
+.input-text-check{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #CACACA;
+}
+
+.footer__right{
+    width: 363px;
+    height: 320px;
+    margin-top: 137px;
+    margin-right: 75px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+}
+    
